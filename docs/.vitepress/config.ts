@@ -15,7 +15,7 @@ export default defineConfig({
             { text:"常见问题", link:"/faq/"},
         ],
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+            { icon: 'github', link: 'https://github.com/yinwx0/vue3-ts-docs/tree/main?tab=readme-ov-file' },
         ],
         sidebar: {
             '/springboot/': [

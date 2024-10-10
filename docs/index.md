@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "前端工程化"
+  name: "学习知识库"
   text: "Vue 3 + Vite2 + TypeScript 学习文档"
   tagline: "学海无涯苦作舟"
   image:
@@ -10,8 +10,8 @@ hero:
     alt: 前端工程化
   actions:
     - theme: brand
-      text: Spring boot
-      link: /springboot/
+      text: 开始使用
+      link: /knowledge/
     - theme: alt
       text: Vue3
       link: /vue3/

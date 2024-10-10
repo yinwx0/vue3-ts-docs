@@ -9,7 +9,7 @@ export default defineConfig({
         logo: "/assets/logo.png",
         nav: [
             { text:"首页", link:"/"},
-            { text:"springboot", link:"/springboot/"},
+            { text:"知识库", link:"/knowledge/"},
             { text:"vue3", link:"/vue3/"},
             { text:"API 参考", link:"/api/"},
             { text:"常见问题", link:"/faq/"},
@@ -18,14 +18,20 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/yinwx0/vue3-ts-docs/tree/main?tab=readme-ov-file' },
         ],
         sidebar: {
-            '/springboot/': [
+            '/knowledge/': [
                 {
-                    text: 'SpringBoot',
+                    text: '知识库',
                     collapsible: true,
                     items: [
-                        { text: '介绍', link: '/springboot/' },
-                        { text: '安装', link: '/springboot/installation' },
-                        { text: '基本概念', link: '/springboot/concepts' },
+                        { text: 'VueUse', link: '/knowledge/VueUse' },
+                        { text: 'VitePress', link: '/knowledge/VitePress' },
+                        { text: 'Unibest', link: '/knowledge/Unibest' },
+                        { text: 'Spring Boot', link: '/knowledge/SpringBoot' },
+                        { text: 'Vue.js', link: '/knowledge/VueJS' },
+                        { text: 'ES6+', link: '/knowledge/ES6' },
+                        { text: '前端发展的几个时代', link: '/knowledge/themeToggle' },
+                        { text: '前端基础的三架马车', link: '/knowledge/ThreeItem' },
+                        { text: '案例：倒计时', link: '/knowledge/countdown' }
                     ],
                 },
             ],
@@ -35,7 +41,7 @@ export default defineConfig({
                     collapsible: true,
                     items: [
                         { text: '介绍', link: '/vue3/' },
-                        { text: '安装', link: '/vue3/installation' },
+                        { text: '组合式函数 Composables', link: '/vue3/composables' },
                         { text: '基本概念', link: '/vue3/concepts' },
                     ],
                 },

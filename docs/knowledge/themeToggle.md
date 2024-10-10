@@ -48,7 +48,7 @@ Node.js的出现不仅突破了JavaScript只能运行于浏览器的限制，还
 
 #### 3.1 Node.js 开启了前端工程
 
-AngularJS 推出后，其团队继续探索前端技术，并在2015年推出了Angular CLI，这是一款命令行工具（脚手架工具），通过简单命令快速创建和运行前端项目，使其可以运行在本地服务（如http://localhost:8080）下。Angular CLI 依赖Node.js，通过文件API生成项目并创建本地服务器，使前端项目始终运行在Node.js环境中。
+AngularJS 推出后，其团队继续探索前端技术，并在2015年推出了Angular CLI，这是一款命令行工具（脚手架工具），通过简单命令快速创建和运行前端项目，使其可以运行在本地服务（如 <a href="http://localhost:8080" target="_blank" rel="noreferrer">http://localhost:8080</a>）下。Angular CLI 依赖Node.js，通过文件API生成项目并创建本地服务器，使前端项目始终运行在Node.js环境中。
 
 Node.js 为前端开发带来了诸多便利，如热更新功能：当修改代码并保存时，页面自动刷新。这依赖于Node.js 启动的WebSocket连接，当文件发生变化时，自动触发编译更新。
 
